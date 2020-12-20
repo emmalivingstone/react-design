@@ -1,0 +1,80 @@
+:root {
+  // Colours
+
+  // Primary
+  // Should be used for primary actions, links, nav items, accent borders, or emphasized text
+  --primary-050: #e6f6ff;
+  --primary-100: #bae3ff;
+  --primary-200: #7cc4fa;
+  --primary-300: #47a3f3;
+  --primary-400: #2186eb;
+  --primary-500: #0967d2;
+  --primary-600: #0552b5;
+  --primary-700: #03449e;
+  --primary-800: #01337d;
+  --primary-900: #002159;
+
+  // Neutrals - Greys
+  // Used for text, backgrounds, borders, secondary buttons and links
+  --grey-050: #f5f7fa;
+  --grey-100: #e4e7eb;
+  --grey-200: #cbd2d9;
+  --grey-300: #9aa5b1;
+  --grey-400: #7b8794;
+  --grey-500: #616e7c;
+  --grey-600: #52606d;
+  --grey-700: #3e4c59;
+  --grey-800: #323f4b;
+  --grey-900: #1f2933;
+
+  // Supporting - used for states etc. Should be used conservatively
+  --cyan-vivid-050: #e1fcf8;
+  --cyan-vivid-100: #c1fef6;
+  --cyan-vivid-200: #92fdf2;
+  --cyan-vivid-300: #62f4eb;
+  --cyan-vivid-400: #3ae7e1;
+  --cyan-vivid-500: #1cd4d4;
+  --cyan-vivid-600: #0fb5ba;
+  --cyan-vivid-700: #099aa4;
+  --cyan-vivid-800: #07818f;
+  --cyan-vivid-900: #05606e;
+
+  --orange-vivid-050: #ffe8d9;
+  --orange-vivid-100: #ffd0b5;
+  --orange-vivid-200: #ffb088;
+  --orange-vivid-300: #ff9466;
+  --orange-vivid-400: #f9703e;
+  --orange-vivid-500: #f35627;
+  --orange-vivid-600: #de3a11;
+  --orange-vivid-700: #c52707;
+  --orange-vivid-800: #ad1d07;
+  --orange-vivid-900: #841003;
+
+  --red-vivid-050: #ffe3e3;
+  --red-vivid-100: #ffbdbd;
+  --red-vivid-200: #ff9b9b;
+  --red-vivid-300: #f86a6a;
+  --red-vivid-400: #ef4e4e;
+  --red-vivid-500: #e12d39;
+  --red-vivid-600: #cf1124;
+  --red-vivid-700: #ab091e;
+  --red-vivid-800: #8a041a;
+  --red-vivid-900: #610316;
+
+  --yellow-vivid-050: #fffbea;
+  --yellow-vivid-100: #fff3c4;
+  --yellow-vivid-200: #fce588;
+  --yellow-vivid-300: #fadb5f;
+  --yellow-vivid-400: #f7c948;
+  --yellow-vivid-500: #f0b429;
+  --yellow-vivid-600: #de911d;
+  --yellow-vivid-700: #cb6e17;
+  --yellow-vivid-800: #b44d12;
+  --yellow-vivid-900: #8d2b0b;
+
+  // Text
+
+  --primary-content-color: var(--grey-900); // e.g. Headline
+  --secondary-content-color: var(--grey-500); // e.g. Article date
+  --tertiary-content-color: var(--grey-100); // e.g. Copyright notice
+}
