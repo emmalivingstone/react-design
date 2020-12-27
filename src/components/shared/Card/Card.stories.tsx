@@ -9,13 +9,19 @@ export default {
   component: Card,
 } as Meta;
 
-const Template: Story = (args) => <Card {...args} />;
+const Template: Story = (args) => (
+  <div style={{ maxWidth: '300px' }}>
+    <Card {...args} />
+  </div>
+);
 
 export const Default = Template.bind({});
 Default.args = {
   children: (
     <div>
-      <p style={{ padding: '20px' }}>Would you like to save your work?</p>
+      <p style={{ padding: '20px', fontWeight: 'bold' }}>
+        Would you like to save your work?
+      </p>
       <Button
         type="button"
         variant="primary"

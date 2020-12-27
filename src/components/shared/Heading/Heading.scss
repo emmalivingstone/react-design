@@ -37,7 +37,7 @@
   }
 
   &--4 {
-    font-size: var(--font-size-22);
+    font-size: var(--font-size-20);
     line-height: 1.5;
     &:not(.heading--no-margin) {
       margin-bottom: var(--size-16);
@@ -45,7 +45,7 @@
   }
 
   &--5 {
-    font-size: var(--font-size-20);
+    font-size: var(--font-size-18);
     line-height: 1.5;
     &:not(.heading--no-margin) {
       margin-bottom: var(--size-24);
@@ -53,7 +53,7 @@
   }
 
   &--6 {
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-16);
     line-height: 1.5;
     &:not(.heading--no-margin) {
       margin-bottom: var(--size-24);

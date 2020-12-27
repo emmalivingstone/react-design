@@ -1,7 +1,7 @@
 .restaurant-card {
-  width: var(--size-640);
+  width: 36rem;
   display: flex;
-  height: 18.25rem;
+  height: 17.25rem;
 
   &__image {
     width: 32%;
@@ -14,15 +14,15 @@
   }
 
   &__content-top {
-    padding: 1.25rem var(--size-24);
+    padding: var(--size-16) 1.5rem;
     background-color: white;
-    height: 64%;
+    height: 62%;
   }
 
   &__content-bottom {
-    padding: var(--size-16) var(--size-24);
+    padding: var(--size-16) 1.5rem;
     background-color: var(--grey-050);
-    height: 36%;
+    height: 38%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,17 +53,22 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    line-height: 1.45;
   }
 
   &__book-columns {
     display: flex;
+    align-items: center;
   }
 
   &__book-info {
     flex: 1;
     font-size: var(--font-size-14);
-    font-weight: bold;
     color: var(--secondary-content-color);
+  }
+
+  &__price-range {
+    font-weight: bold;
   }
 
   &__book-count {

@@ -94,7 +94,7 @@ export const RestaurantCard: FunctionComponent<RestaurantCardProps> = ({
         <div className="restaurant-card__content-bottom">
           <div className="restaurant-card__book-columns">
             <div className="restaurant-card__book-info">
-              <div>{priceRange}</div>
+              <div className="restaurant-card__price-range">{priceRange}</div>
               <ReviewsSummary reviewCount={reviewCount} starCount={starCount} />
             </div>
             <Button onClick={onBook} type="button" variant="primary">
