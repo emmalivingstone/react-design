@@ -54,6 +54,10 @@ export type RestaurantCardProps = {
   bookedTodayCount: number;
 } & ReviewsSummaryProps;
 
+/**
+ * Component for displaying restaurant information and an image within a card.
+ * Also includes a 'book' button.
+ */
 export const RestaurantCard: FunctionComponent<RestaurantCardProps> = ({
   image,
   onBook,
