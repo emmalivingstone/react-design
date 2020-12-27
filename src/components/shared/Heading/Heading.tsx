@@ -6,6 +6,10 @@ type HeadingLevel = 1 | 2 | 3 | 4 | 5 | 6;
 
 export type HeadingProps = {
   /**
+   * Heading content
+   */
+  children: string;
+  /**
    * Which level the heading should be.
    * e.g. 3 will render a <h3> tag.
    */
