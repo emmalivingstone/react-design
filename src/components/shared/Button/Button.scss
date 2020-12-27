@@ -1,10 +1,11 @@
 .button {
   border: 0;
   background: none;
-  padding: var(--size-8) var(--size-24);
+  padding: var(--size-8) var(--size-16);
   border-radius: 8px;
-  font-size: var(--font-size-16);
-  letter-spacing: 0.03em;
+  font-size: var(--font-size-14);
+  font-weight: bold;
+  display: inline-block;
   cursor: pointer;
   transition: background-color 0.175s;
 
@@ -17,14 +18,14 @@
   }
 
   &--primary {
-    background-color: var(--primary-300);
+    background-color: var(--primary-500);
     color: #fff;
-    border: 1px solid var(--primary-300);
+    border: 1px solid var(--primary-500);
 
     &:hover,
     &:active {
-      background-color: var(--primary-400);
-      border-color: var(--primary-400);
+      background-color: var(--primary-600);
+      border-color: var(--primary-600);
     }
   }
 
@@ -39,7 +40,13 @@
     }
   }
 
+  &--standard {
+    min-width: var(--size-128);
+  }
+
   &--block {
     width: 100%;
+    display: block;
+    border-radius: 0;
   }
 }

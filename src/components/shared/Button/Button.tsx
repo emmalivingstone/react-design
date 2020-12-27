@@ -1,4 +1,4 @@
-import { ComponentPropsWithRef, FunctionComponent } from 'react';
+import React, { ComponentPropsWithRef, FunctionComponent } from 'react';
 import { joinClasses } from '../../../utilities';
 import './Button.scss';
 
@@ -12,9 +12,12 @@ export type ButtonProps = {
    */
   variant: 'primary' | 'secondary';
   /**
-   * Size of button, defaults to auto. Block will span the full width of it's parent.
+   * Size of button, defaults to standard.
+   * Block will span the full width of it's parent
+   * Auto will stretch to fit it's content
+   * Standard has a set min-width and will stretch to fit longer content.
    */
-  size?: 'block' | 'auto';
+  size?: 'block' | 'auto' | 'standard';
   /**
    * Note: setting disabled to true will apply aria-disabled on the button instead of the 'disabled' attribute for better accessibility.
    */
@@ -30,7 +33,7 @@ export const Button: FunctionComponent<ButtonProps> = ({
   className,
   disabled = false,
   onClick,
-  size = 'auto',
+  size = 'standard',
   children,
   ...props
 }) => {
