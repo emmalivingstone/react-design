@@ -1,0 +1,13 @@
+.inline-icon {
+  line-height: 1em;
+  font-size: 1em;
+  vertical-align: middle;
+
+  &--right-gap {
+    margin-right: var(--size-4);
+  }
+
+  &--left-gap {
+    margin-left: var(--size-4);
+  }
+}

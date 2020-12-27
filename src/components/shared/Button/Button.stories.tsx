@@ -37,3 +37,13 @@ const blockProps: ButtonProps = {
   children: 'Submit',
 };
 Block.args = blockProps;
+
+export const Auto = Template.bind({});
+const autoProps: ButtonProps = {
+  variant: 'primary',
+  type: 'button',
+  onClick: action('onClick'),
+  size: 'auto',
+  children: 'Book',
+};
+Auto.args = autoProps;

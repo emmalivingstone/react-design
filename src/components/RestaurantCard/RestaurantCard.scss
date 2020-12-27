@@ -1,0 +1,77 @@
+.restaurant-card {
+  width: var(--size-640);
+  display: flex;
+  height: 18.25rem;
+
+  &__image {
+    width: 32%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__content {
+    width: 68%;
+  }
+
+  &__content-top {
+    padding: 1.25rem var(--size-24);
+    background-color: white;
+    height: 64%;
+  }
+
+  &__content-bottom {
+    padding: var(--size-16) var(--size-24);
+    background-color: var(--grey-050);
+    height: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__info {
+    color: var(--secondary-content-color);
+    font-size: var(--font-size-14);
+    margin-bottom: var(--size-8);
+    margin-top: 0.125rem;
+
+    > * {
+      max-width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: inline-block;
+    }
+  }
+
+  &__info-separator {
+    margin: 0 var(--size-8);
+  }
+
+  &__description {
+    color: var(--primary-content-color);
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+  &__book-columns {
+    display: flex;
+  }
+
+  &__book-info {
+    flex: 1;
+    font-size: var(--font-size-14);
+    font-weight: bold;
+    color: var(--secondary-content-color);
+  }
+
+  &__book-count {
+    font-size: var(--font-size-14);
+    color: var(--secondary-content-color);
+  }
+
+  &__book-icon {
+    color: var(--cyan-vivid-500);
+  }
+}

@@ -1,0 +1,12 @@
+.reviews-summary {
+  font-size: var(--font-size-14);
+
+  &__star {
+    color: var(--yellow-vivid-500);
+  }
+
+  &__count {
+    color: var(--secondary-content-color);
+    font-weight: bold;
+  }
+}
