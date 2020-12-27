@@ -24,6 +24,10 @@ export type HeadingProps = {
    * Optionally limit the heading to one line, and provide an ellipses for any text-overflow.
    */
   noWrap?: boolean;
+  /**
+   * Heading content
+   */
+  children: string;
 } & ComponentPropsWithRef<'h1'>;
 
 export const Heading: FunctionComponent<HeadingProps> = ({
